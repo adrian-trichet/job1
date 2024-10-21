@@ -1,0 +1,121 @@
+/*------------------------------------*/
+/*---------Parametre globaux*----------/
+/*------------------------------------*/
+
+body{
+    background-color: aliceblue;
+}
+
+hr{
+    color:darkcyan;
+    margin: 40px 0 40px 0; 
+}
+
+footer{
+    background-color: lightblue;
+    height: 50px;
+    margin-top: 30px;
+    bottom: 0;
+    
+}
+
+
+
+/*------------------------------------*/
+/*Nav Bar haute de page format desktop*/
+/*------------------------------------*/
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 10px;
+    margin: -10px;
+
+    input{
+        margin-left: 400px;
+    }
+}
+
+
+/*---------------------------*/
+/*Titre et texte haut de page*/
+/*---------------------------*/
+
+h1{
+    text-align: center;
+    font:bold "Fira Sans", serif;
+    margin-bottom: 20px;
+}
+
+.sousTexteH1{
+    text-align: center;
+    font: italic 1.2rem "Fira Sans", serif;
+    margin-bottom: 20px;
+}
+
+
+/*-------------------------*/
+/*Image en ligne page Index*/
+/*-------------------------*/
+
+.imgLine{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.imgLine img{
+    width: 200px;
+    height: 145px;
+    padding: 20px;
+    border: solid darkcyan;
+    background-color: white;
+    object-fit: cover;
+
+}
+
+/*--------------------------*/
+/*-------Liste Index--------*/
+/*--------------------------*/
+
+.listBox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.petitListBox{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    margin-left: 15px;
+
+}
+.petitListBox h2{
+    align-self: center;
+}
+
+.petitListBox section{
+
+    width: 350px;
+}
+
+
+
+
+/*------------------------------*/
+/*----Equipe présentation-------*/
+/*------------------------------*/
+
+/* A reprendre ICI */
+
+
+.equipeBoxPetit img{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 200px;
+    height: 200px;
+}

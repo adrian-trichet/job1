@@ -1,0 +1,54 @@
+
+.container{
+
+    display: flex;
+
+    section{
+        background-color: #88c1d0;
+        width: 150px;
+        height: 100px;
+        margin: 10px 10px 0 0;
+    }
+
+    .petitContainer{
+        display: flex;
+        flex-flow:row wrap;
+    }
+    
+}
+
+@media (min-width:1600px) {
+    
+    .container{
+        flex-flow: row nowrap;
+        
+    }
+
+}
+
+@media (max-width:1599px) and (min-width:768px) {
+    
+    .container{
+        flex-flow: column nowrap;   
+    }
+
+}
+
+@media (max-width:767px) {
+    
+
+    .container{
+        flex-flow: column nowrap; 
+    }
+
+    .petitContainer
+    {
+        margin-right:500px;
+
+        section{
+            height: 100px;
+            width: 150px;
+        }
+    }
+
+}
